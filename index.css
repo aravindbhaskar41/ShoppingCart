@@ -1,0 +1,48 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  border: 1px solid black;
+}
+.idHolder {
+  border: 1px solid green;
+  width: 10%;
+}
+.nameHolder {
+  border: 1px solid yellow;
+  width: 60%;
+}
+.priceHolder {
+  border: 1px solid blue;
+  width: 20%;
+}
+.decrement {
+  background-color: red;
+  color: white;
+  width: 10%;
+}
+.decrement:hover,
+.increment:hover {
+  background-color: black;
+}
+.quantityHolder {
+  border: 1px solid blue;
+  width: 20%;
+}
+.increment {
+  background-color: green;
+  color: white;
+  width: 10%;
+}
